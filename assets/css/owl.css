@@ -48,7 +48,10 @@
     -webkit-touch-callout: none; }
   .owl-carousel .owl-item img {
     display: block;
-    width: 100%; }
+    width: 100%; 
+    
+  }
+
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {
     display: none; }
@@ -184,3 +187,41 @@
   z-index: 1;
   height: 100%;
   width: 100%; }
+
+
+
+  .owl-carousel .owl-items img {
+    display: block;
+    width: 100%;
+    height: 150px; 
+    
+  }
+.owl-carousel .owl-wrapper,
+  .owl-carousel .owl-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0); }
+
+  .owl-carousel .owl-items {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none; }
+
+    .owl-carousel .owl-items {
+  /**
+      This is introduced due to a bug in IE11 where lazy loading combined with autoheight plugin causes a wrong
+      calculation of the height of the owl-item that breaks page layouts
+     */ }
+  .owl-carousel .owl-items .owl-lazy {
+    opacity: 0;
+    transition: opacity 400ms ease; }
+  .owl-carousel .owl-items .owl-lazy[src^=""], .owl-carousel .owl-items .owl-lazy:not([src]) {
+    max-height: 0; }
+  .owl-carousel .owl-items img.owl-lazy {
+    transform-style: preserve-3d; }

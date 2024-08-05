@@ -1,8 +1,6 @@
 /*
 
-TemplateMo 569 Edu Meeting
 
-https://templatemo.com/tm-569-edu-meeting
 
 */
 
@@ -95,7 +93,7 @@ a {
 }
 
 a:hover {
-	color: #FC3;
+  color: #FC3;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -197,6 +195,20 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
+}
+
+
+.logo {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    max-width: 150px; /* Adjust this value based on your needs */
+  }
 }
 
 
@@ -1694,19 +1706,19 @@ section.meetings-page .pagination ul li a:hover {
 
 /* Meeting item column */
 .templatemo-item-col {
-	width: 31%;
+  width: 31%;
 }
 
 @media (max-width: 992px) {
-	.templatemo-item-col {
-		width: 45%;
-	}
+  .templatemo-item-col {
+    width: 45%;
+  }
 }
 
 @media (max-width: 767px) {
-	.templatemo-item-col {
-		width: 100%;
-	}
+  .templatemo-item-col {
+    width: 100%;
+  }
 }
 
 .blog{
