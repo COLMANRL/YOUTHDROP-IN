@@ -256,7 +256,7 @@ header
 }
 
 .background-header {
-  background-color: #fff!important;
+  background-color: #5063c3!important;
   height: 80px!important;
   position: fixed!important;
   top: 0!important;
@@ -1546,7 +1546,7 @@ section.meetings-page .filters li {
 
 section.meetings-page .filters ul li.active,
 section.meetings-page .filters ul li:hover {
-  background-color: #a12c2f;
+  background-color: #5063c3;
   color: #fff;
 }
 
@@ -1587,7 +1587,7 @@ section.meetings-page .main-button-red a {
 
 section.meetings-page .pagination ul li.active a,
 section.meetings-page .pagination ul li a:hover {
-  background-color: #a12c2f;
+  background-color: #5063c3;
   color: #fff;
 }
 
